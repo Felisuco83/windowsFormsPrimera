@@ -112,11 +112,35 @@
     <Compile Include="Form13ColeccionGrafica.Designer.cs">
       <DependentUpon>Form13ColeccionGrafica.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form14SeleccionMultipleListBox.cs">
+    <Compile Include="Form14SeleccionMultiple.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form14SeleccionMultipleListBox.Designer.cs">
-      <DependentUpon>Form14SeleccionMultipleListBox.cs</DependentUpon>
+    <Compile Include="Form14SeleccionMultiple.Designer.cs">
+      <DependentUpon>Form14SeleccionMultiple.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form15ColeccionNumerosListBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form15ColeccionNumerosListBox.Designer.cs">
+      <DependentUpon>Form15ColeccionNumerosListBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form17MetodoReferencia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form17MetodoReferencia.Designer.cs">
+      <DependentUpon>Form17MetodoReferencia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form16TiendaProductos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form16TiendaProductos.Designer.cs">
+      <DependentUpon>Form16TiendaProductos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form17MetodosEvento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form17MetodosEvento.Designer.cs">
+      <DependentUpon>Form17MetodosEvento.cs</DependentUpon>
     </Compile>
     <Compile Include="FormConversion.cs">
       <SubType>Form</SubType>
@@ -165,8 +189,20 @@
     <EmbeddedResource Include="Form13ColeccionGrafica.resx">
       <DependentUpon>Form13ColeccionGrafica.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Form14SeleccionMultipleListBox.resx">
-      <DependentUpon>Form14SeleccionMultipleListBox.cs</DependentUpon>
+    <EmbeddedResource Include="Form14SeleccionMultiple.resx">
+      <DependentUpon>Form14SeleccionMultiple.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form15ColeccionNumerosListBox.resx">
+      <DependentUpon>Form15ColeccionNumerosListBox.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form16TiendaProductos.resx">
+      <DependentUpon>Form16TiendaProductos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form17MetodoReferencia.resx">
+      <DependentUpon>Form17MetodoReferencia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form17MetodosEvento.resx">
+      <DependentUpon>Form17MetodosEvento.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormConversion.resx">
       <DependentUpon>FormConversion.cs</DependentUpon>
