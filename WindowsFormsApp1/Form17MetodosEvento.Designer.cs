@@ -50,6 +50,7 @@
             this.txtnumeros.Name = "txtnumeros";
             this.txtnumeros.Size = new System.Drawing.Size(100, 20);
             this.txtnumeros.TabIndex = 1;
+            this.txtnumeros.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtnumeros_KeyPress);
             // 
             // txtletras
             // 
@@ -57,6 +58,7 @@
             this.txtletras.Name = "txtletras";
             this.txtletras.Size = new System.Drawing.Size(100, 20);
             this.txtletras.TabIndex = 3;
+            this.txtletras.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtletras_KeyPress);
             // 
             // lblletras
             // 
@@ -75,6 +77,8 @@
             this.lblraton.Size = new System.Drawing.Size(449, 229);
             this.lblraton.TabIndex = 4;
             this.lblraton.Text = "label1";
+            this.lblraton.MouseHover += new System.EventHandler(this.lblraton_MouseHover);
+            this.lblraton.MouseMove += new System.Windows.Forms.MouseEventHandler(this.lblraton_MouseMove);
             // 
             // Form17MetodosEvento
             // 

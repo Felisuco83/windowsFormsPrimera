@@ -16,5 +16,34 @@ namespace WindowsFormsApp1
         {
             InitializeComponent();
         }
+
+        private void lblraton_MouseHover(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblraton_MouseMove(object sender, MouseEventArgs e)
+        {
+            this.lblraton.Text = "X: " + e.X + ", Y: " + e.Y;
+        }
+
+        private void txtnumeros_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            //DESEAMOS INCLUIR LA TECLA DE BORRAR, USAREMOS EL CÓDIGO ASCII
+            char teclaBack = (char)Keys.Back;
+            if (char.IsDigit(e.KeyChar) == false && e.KeyChar != teclaBack)
+            {
+                e.Handled = true;
+            }
+        }
+
+        private void txtletras_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            char teclaBack = (char)Keys.Back;
+            if (char.IsLetter(e.KeyChar) == false && e.KeyChar != teclaBack)
+            {
+                e.Handled = true;
+            }
+        }
     }
 }
