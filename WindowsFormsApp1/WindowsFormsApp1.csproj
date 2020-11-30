@@ -178,6 +178,12 @@
     <Compile Include="Form23ControlesEjecucion.Designer.cs">
       <DependentUpon>Form23ControlesEjecucion.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form25PruebaClases.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form25PruebaClases.Designer.cs">
+      <DependentUpon>Form25PruebaClases.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form24SorteoPrimitiva.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -267,6 +273,9 @@
     <EmbeddedResource Include="Form24SorteoPrimitiva.resx">
       <DependentUpon>Form24SorteoPrimitiva.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Form25PruebaClases.resx">
+      <DependentUpon>Form25PruebaClases.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormConversion.resx">
       <DependentUpon>FormConversion.cs</DependentUpon>
     </EmbeddedResource>
@@ -294,6 +303,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ProyectoClases\ProyectoClases.csproj">
+      <Project>{f001ae4c-3bae-409f-b234-38a2ef07a72a}</Project>
+      <Name>ProyectoClases</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
