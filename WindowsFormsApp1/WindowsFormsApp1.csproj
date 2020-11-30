@@ -166,6 +166,24 @@
     <Compile Include="Form21TablaMultiplicar.Designer.cs">
       <DependentUpon>Form21TablaMultiplicar.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form22TemperaturasAnuales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form22TemperaturasAnuales.Designer.cs">
+      <DependentUpon>Form22TemperaturasAnuales.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form23ControlesEjecucion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form23ControlesEjecucion.Designer.cs">
+      <DependentUpon>Form23ControlesEjecucion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form24SorteoPrimitiva.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form24SorteoPrimitiva.Designer.cs">
+      <DependentUpon>Form24SorteoPrimitiva.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormConversion.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -239,6 +257,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form21TablaMultiplicar.resx">
       <DependentUpon>Form21TablaMultiplicar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form22TemperaturasAnuales.resx">
+      <DependentUpon>Form22TemperaturasAnuales.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form23ControlesEjecucion.resx">
+      <DependentUpon>Form23ControlesEjecucion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form24SorteoPrimitiva.resx">
+      <DependentUpon>Form24SorteoPrimitiva.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormConversion.resx">
       <DependentUpon>FormConversion.cs</DependentUpon>

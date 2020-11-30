@@ -28,6 +28,7 @@ namespace WindowsFormsApp1
             {
                 for(int i =0; i< this.panel1.Controls.Count; i++)
                 {
+                    if(this.panel1.Controls[i] is TextBox)
                     this.panel1.Controls[i].Text = (int.Parse(this.txtnumero.Text) * (i + 1)).ToString();
                 }
             }
