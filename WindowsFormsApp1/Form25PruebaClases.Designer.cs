@@ -31,6 +31,7 @@
             this.lstdatos = new System.Windows.Forms.ListBox();
             this.lbldatos = new System.Windows.Forms.Label();
             this.btncrear = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lstdatos
@@ -56,15 +57,26 @@
             this.btncrear.Name = "btncrear";
             this.btncrear.Size = new System.Drawing.Size(87, 59);
             this.btncrear.TabIndex = 2;
-            this.btncrear.Text = "Crear";
+            this.btncrear.Text = "Crear personas";
             this.btncrear.UseVisualStyleBackColor = true;
             this.btncrear.Click += new System.EventHandler(this.btncrear_Click);
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(339, 161);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(87, 59);
+            this.button1.TabIndex = 3;
+            this.button1.Text = "Crear empleados";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form25PruebaClases
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.btncrear);
             this.Controls.Add(this.lbldatos);
             this.Controls.Add(this.lstdatos);
@@ -80,5 +92,6 @@
         private System.Windows.Forms.ListBox lstdatos;
         private System.Windows.Forms.Label lbldatos;
         private System.Windows.Forms.Button btncrear;
+        private System.Windows.Forms.Button button1;
     }
 }

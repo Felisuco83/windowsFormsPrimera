@@ -190,6 +190,12 @@
     <Compile Include="Form24SorteoPrimitiva.Designer.cs">
       <DependentUpon>Form24SorteoPrimitiva.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form26ClaseMes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form26ClaseMes.Designer.cs">
+      <DependentUpon>Form26ClaseMes.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormConversion.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -275,6 +281,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form25PruebaClases.resx">
       <DependentUpon>Form25PruebaClases.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form26ClaseMes.resx">
+      <DependentUpon>Form26ClaseMes.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormConversion.resx">
       <DependentUpon>FormConversion.cs</DependentUpon>
