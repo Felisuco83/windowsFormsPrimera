@@ -52,7 +52,8 @@ namespace WindowsFormsApp1
             this.lstdatos.Items.Add("Datos empleado: " + emp.Nombre + " " + emp.Apellidos);
             Empleado empleado = new Empleado("EMp", "EMPAPE");
             Director dire = new Director();
-            this.lstdatos.Items.Add("Director :" dire.)
+            //this.lstdatos.Items.Add("Vacaciones empleado: " + emp.GetVacaciones());
+            this.lstdatos.Items.Add("Vacaciones director: " + dire.GetVacaciones());
         }
     }
 }

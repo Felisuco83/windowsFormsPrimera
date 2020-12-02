@@ -22,5 +22,12 @@ namespace ProyectoClases
             this.Apellidos = apellidos;
         }
         protected int SalarioMinimo { get; set; }
+        #region metodos clase empleado
+        public virtual int GetVacaciones ()
+        {
+            Debug.WriteLine("GetVacaciones de empleado");
+            return 22;
+        }
+        #endregion
     }
 }
