@@ -16,7 +16,7 @@ namespace WindowsFormsApp1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormFicheroProductos());
+            Application.Run(new Form29SerializarCoches());
         }
     }
 }
