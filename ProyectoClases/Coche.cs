@@ -10,6 +10,6 @@ namespace ProyectoClases
     {
         public string Marca { get; set; }
         public string Modelo { get; set; }
-        public byte Imagen { get; set; }
+        public byte[] Imagen { get; set; }
     }
 }

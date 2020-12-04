@@ -90,6 +90,7 @@ namespace WindowsFormsApp1
             this.lstcoches.Name = "lstcoches";
             this.lstcoches.Size = new System.Drawing.Size(329, 355);
             this.lstcoches.TabIndex = 5;
+            this.lstcoches.SelectedIndexChanged += new System.EventHandler(this.lstcoches_SelectedIndexChanged);
             // 
             // btninsert
             // 
@@ -129,6 +130,7 @@ namespace WindowsFormsApp1
             this.btnloadimg.TabIndex = 9;
             this.btnloadimg.Text = "Cargar imagen";
             this.btnloadimg.UseVisualStyleBackColor = true;
+            this.btnloadimg.Click += new System.EventHandler(this.btnloadimg_Click);
             // 
             // label3
             // 
